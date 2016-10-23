@@ -1,40 +1,40 @@
 Exception  <br>
-  NoMemoryError <br>
-  ScriptError <br>
-    LoadError <br>
-      Gem::LoadError <br>
-    NotImplementedError <br>
-    SyntaxError <br>
-  SecurityError <br>
-  SignalException <br>
-    Interrupt <br>
-  StandardError <br>
-    ArgumentError <br>
-      Gem::Requirement::BadRequirementError <br>
-    EncodingError <br>
-      Encoding::CompatibilityError <br>
-      Encoding::ConverterNotFoundError <br>
-      Encoding::InvalidByteSequenceError <br>
-      Encoding::UndefinedConversionError <br>
-    FiberError <br>
-    IndexError <br>
-      KeyError <br>
-      StopIteration <br>
-    IOError <br>
-      EOFError <br>
-    LocalJumpError <br>
-    Math::DomainError <br>
-    NameError <br>
-      NoMethodError <br>
-    RangeError <br>
-      FloatDomainError <br>
-    RegexpError <br>
-    RuntimeError <br>
-      Gem::Exception <br>
-    SystemCallError <br>
-    ThreadError <br>
-    TypeError <br>
-    ZeroDivisionError <br>
-  SystemExit <br>
-    Gem::SystemExitException <br>
-  SystemStackError <br>
+--NoMemoryError <br>
+--ScriptError <br>
+----LoadError <br>
+------Gem::LoadError <br>
+----NotImplementedError <br>
+----SyntaxError <br>
+--SecurityError <br>
+--SignalException <br>
+----Interrupt <br>
+--StandardError <br>
+----ArgumentError <br>
+------Gem::Requirement::BadRequirementError <br>
+----EncodingError <br>
+------Encoding::CompatibilityError <br>
+------Encoding::ConverterNotFoundError <br>
+------Encoding::InvalidByteSequenceError <br>
+------Encoding::UndefinedConversionError <br>
+----FiberError <br>
+----IndexError <br>
+------KeyError <br>
+------StopIteration <br>
+----IOError <br>
+------EOFError <br>
+----LocalJumpError <br>
+----Math::DomainError <br>
+----NameError <br>
+------NoMethodError <br>
+----RangeError <br>
+------FloatDomainError <br>
+----RegexpError <br>
+----RuntimeError <br>
+------Gem::Exception <br>
+----SystemCallError <br>
+----ThreadError <br>
+----TypeError <br>
+----ZeroDivisionError <br>
+--SystemExit <br>
+----Gem::SystemExitException <br>
+--SystemStackError <br>
