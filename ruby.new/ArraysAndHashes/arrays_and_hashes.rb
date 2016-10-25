@@ -31,3 +31,21 @@ inst_section = {
 }
 
 puts inst_section['cello']
+
+# A useful method if you need to remove nil values from an array is compact:
+a = ['one', 'two', 'three', nil, 'four']
+p a.compact
+
+# Another common need is to remove duplicate elements from an array.
+#
+# It has the non-destructive uniq, and destructive method uniq!
+a = [2, 5, 12, 1, 5, 2, 67, 12, 57, 2, 67]
+puts ">>uniq"
+p a
+p a.uniq
+p a
+
+puts ">>uniq!"
+p a
+p a.uniq!
+p a
